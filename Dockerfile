@@ -1,4 +1,3 @@
-ROM debian:buster
 
 MAINTAINER Sagnik Sasmal, <sagnik@sagnik.me>
 
