@@ -8,9 +8,9 @@ RUN apt update && \
 USER container
 ENV  USER container
 ENV  HOME /home/container
-
+DDD lh
 WORKDIR /home/container
 USER root
 COPY ./entrypoint.sh /entrypoint.sh
-
-CMD ["/bin/bash", "/entrypoint.sh"]
+WORKDIR /
+CMD ["/bin/bash", "./entrypoint.sh"]
